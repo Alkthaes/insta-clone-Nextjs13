@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['blog.adaptimmo.com', 'upload.wikimedia.org'],
+    domains: ['blog.adaptimmo.com', 'upload.wikimedia.org', 'cdn-cf.ginx.tv'],
   },
 };
 
