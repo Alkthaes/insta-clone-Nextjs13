@@ -21,7 +21,6 @@ export default async function Posts() {
     },
   ];
 
-  console.log(dummyPosts);
   return (
     <div>
       {dummyPosts.map((post) => (

@@ -12,7 +12,7 @@ export default function Stories() {
       img: `https://i.pravatar.cc/150?img=${Math.ceil(Math.random() * 70)}`,
       id: i,
     }));
-    console.log(storyUsers);
+
     setStoryUsers(storyUsers);
   }, []);
   return (
