@@ -1,5 +1,7 @@
 import React from 'react';
-import { BsThreeDots } from 'react-icons/bs';
+import { BsThreeDots, BsBookmark } from 'react-icons/bs';
+import { AiOutlineHeart, AiFillHeart } from 'react-icons/ai';
+import { FaRegCommentDots } from 'react-icons/fa';
 
 export default function Post({ img, userImg, caption, username, id }) {
   return (
@@ -16,6 +18,13 @@ export default function Post({ img, userImg, caption, username, id }) {
         <BsThreeDots className='h-5' />
       </div>
       <img className='object-cover w-full' src={img} alt={caption} />
+      <div className='flex justify-between px-4 pt-4'>
+        <div className='flex space-x-4'>
+          <AiOutlineHeart className='postBtn' />
+          <FaRegCommentDots className='postBtn' />
+        </div>
+        <BsBookmark className='postBtn' />
+      </div>
     </div>
   );
 }
