@@ -8,7 +8,7 @@ export default function Post({ img, userImg, caption, username, id }) {
   return (
     <div className=''>
       {/* Header */}
-      <div className='flex items-center p-5 justify-between bg-white my-7'>
+      <div className='flex items-center p-5 justify-between bg-white mt-7'>
         <div className='flex items-center'>
           <img
             className='h-12 w-12 rounded-full object-cover border p-1 mr-3'
